@@ -28,8 +28,7 @@ content = """
 <title>My webserver</title>
 </head>
 <body>
-<h1>Welcome</h1>
-<h2>Name : S.ABHISHEK</h2>
+<h1>Name : S.ABHISHEK</h1>
 <h3>21004552 </h3>
 <h5>Dept.:Artificial Intelligence and Data Science</h5>
 </body>
@@ -55,8 +54,7 @@ content = """
 <title>My webserver</title>
 </head>
 <body>
-<h1>Welcome</h1>
-<h2>Name : S.ABHISHEK</h2>
+<h1>Name : S.ABHISHEK</h1>
 <h3>21004552 </h3>
 <h5>Dept.:Artificial Intelligence and Data Science</h5>
 </body>
