@@ -29,8 +29,8 @@ content = """
 </head>
 <body>
 <h1>Name : S.ABHISHEK</h1>
-<h3>21004552 </h3>
-<h5>Dept.:Artificial Intelligence and Data Science</h5>
+<h2>21004552 </h2>
+<h3>Dept.:Artificial Intelligence and Data Science</h3>
 </body>
 </html>
 """
@@ -47,29 +47,6 @@ print("my webserver is running...")
 httpd.serve_forever()
 ~~~
 ## OUTPUT:
-from http.server import HTTPServer, BaseHTTPRequestHandler
-content = """
-<html>
-<head>
-<title>My webserver</title>
-</head>
-<body>
-<h1>Name : S.ABHISHEK</h1>
-<h3>21004552 </h3>
-<h5>Dept.:Artificial Intelligence and Data Science</h5>
-</body>
-</html>
-"""
-class myhandler(BaseHTTPRequestHandler):
-    def do_GET(self):
-        print("request received")
-        self.send_response(200)
-        self.send_header('content-type', 'text/html; charset=utf-8')
-        self.end_headers()
-        self.wfile.write(content.encode())
-server_address = ('',8080)
-httpd = HTTPServer(server_address,myhandler)
-print("my webserver is running...")
-httpd.serve_forever()
+![GitHub Logo](screenshot.png)
 
 ## RESULT:
